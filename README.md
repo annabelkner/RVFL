@@ -2,7 +2,7 @@
 
 This repository contains a custom implementation of the RVFL (Random Vector Functional Link) estimator and a set of experiments comparing its performance against classical MLP (Multi-Layer Perceptron) neural networks in a regression task based on spectral band data.
 
-## Czym jest RVFL?
+## What is RVFL?
 
 RVFL is a single-hidden-layer feedforward neural network in which the hidden-layer weights and biases are randomly generated from a probability distribution and remain fixed throughout training.
 Only the output-layer weights are learned, which typically reduces training to solving a convex optimization problem (e.g., ridge regression). This architecture completely eliminates the need for the computationally expensive backpropagation algorithm.
