@@ -85,43 +85,18 @@ Despite allowing powerful deep architectures for the MLP (the best-performing co
 
 ## Bootstrap Analysis and Statistical Significance
 
-To validate the robustness of the results, a paired bootstrap procedure was conducted:
-
-$$
-B = 1000
-$$
+To validate the robustness of the results, a paired bootstrap procedure was conducted with $$B = 1000$$
 
 ### Confidence Interval for the MSE Difference
 
-The 95% confidence interval for:
-
-$$
-Z_{MSE}
-$$
-
-was:
-
-$$
-[-0.10408,\,-0.04121]
-$$
-
+The 95% confidence interval for $$Z_{MSE}$$ was $$[-0.10408,\,-0.04121]$$.
 Since the interval lies entirely below zero, it provides strong evidence that RVFL achieves a significantly lower prediction error.
 
 ### Confidence Interval for the $R^2$ Difference
 
-The 95% confidence interval for: 
-
-$$
-Z_{R^2}
-$$
-
-was:
-
-$$
-[0.02523,\;0.06075]
-$$
-
+The 95% confidence interval for $$Z_{R^2}$$ was $$[0.02523,\;0.06075]$$. 
 Since the interval lies entirely above zero, it confirms the superiority of RVFL in terms of explained variance as well.
+
 ---
 
 ## Training Dynamics and Diagnostic Analysis
