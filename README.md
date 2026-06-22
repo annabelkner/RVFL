@@ -29,10 +29,9 @@ The implementation supports:
 
 ---
 
-## ata and Preprocessing
+## Data and Preprocessing
 
 The model was trained using the spectral_train.csv dataset.
-
 To ensure an unbiased evaluation and prevent data leakage, the following procedure was applied:
 
 ### Held-Out Test Set
