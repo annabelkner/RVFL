@@ -128,7 +128,11 @@ Only after transformation through the random nonlinear hidden layer could the mo
 
 ### Function Shape and Residual Analysis
 
-The MLP produced a relatively smooth regression function that captured the global trend of the dataset.
+![Function](plots/functions.png)
+
+![Function](plots/predictions.png)
+
+The MLP produced a relatively smooth regression function that captured the global trend of the dataset. 
 However, it tended to oversmooth local relationships, flatten predictions in densely populated regions and exhibit increasing residual variance near the boundaries of the input domain.
 
 RVFL generated a more irregular ("jagged") function but followed local data clusters much more closely.
